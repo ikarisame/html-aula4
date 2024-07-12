@@ -1,17 +1,57 @@
 *{
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('https://images-ext-1.discordapp.net/external/gce_hTR-OIY6tsCkKyj8zqitczzV6l1iD2iI8iokgv8/https/cdn.pixabay.com/photo/2022/01/26/20/30/space-6969857_1280.jpg?format=webp&width=1246&height=701');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
     width: 400px;
-    border: 1px solid #DEDEDE;
+    background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+form h1{
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
 }
 form label{
+    color: white;
     display: block;
+    margin-top:15px;
 }
 form input{
+    margin-top: 6px;
     width: 100%;
     display: block;
+    height: 30px;
+    border-radius: 6px 6px 6px 6px;
+    border:none;
 }
 form button{
-    
+width: 100px;
+align-self: center;
+margin-top: 20px;
+height: 25px;
+border-radius: 5px;
+border: none;
+background-color: white;
 }
